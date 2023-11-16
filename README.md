@@ -6,3 +6,4 @@ Practice makes better.
 
 ## Citations
 * GSAP Scroll Trigger Pen 
+* FontShare (fontshare.com)

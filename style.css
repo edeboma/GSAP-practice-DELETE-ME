@@ -1,11 +1,15 @@
+@import url(bevellier.css);
+@import "https://unpkg.com/open-props";
+
 body,html {
     overflow-x:hidden;
 }
 body {
     margin:0;
-    font-family:sans-serif;
     color:#FFF;
+    font-family: 'Bevellier-Semibold';
 }
+
 section {
     display:flex;
     align-items:center;
@@ -14,13 +18,13 @@ section {
     flex-direction: column;
 }
 .panel-1 {
-  background:#423E3B;  
+    background-image: var(--gradient-21);  
 }
 .panel-2 {
-  background:#88498F;
+    background-image: var(--gradient-12);
 }
 .panel-3 {
-  background: coral;
+    background-image: var(--gradient-1);
 }
 
 h1 {
