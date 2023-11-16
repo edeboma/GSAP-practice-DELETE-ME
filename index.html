@@ -12,19 +12,35 @@
     <link rel="manifest" href="/favicons/site.webmanifest">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css">
+    <!-- FontShare/ Open Props/ etc. go above the stylesheet-->
+    <!-- THIS IS ALWAYS LAST--><link rel="stylesheet" href="style.css"> 
 
     <!-- Scripts -->
-    <script src="script.js" defer></script>
+<script src="https://unpkg.co/gsap@3/dist/gsap.min.js" defer></script>
+<script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
+    <!-- THIS IS ALWAYS LAST--><script src="script.js" defer></script> 
 
-    <title>Web 1 Website Starter</title>
+
+    <title>GSAP Practice</title>
 </head>
 <body>
     
-    <h1>Don't forget your header Yo!</h1>
+    <main class="container">
+        <section class="panel-1">
+          <h1>Panel 1</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates ut asperiores aperiam, dolor quod repellendus expedita illum ipsa amet eveniet maxime esse aliquam sint nobis, incidunt qui est, doloremque obcaecati!</p>
+        </section>
+        <section class="panel-2">
+          <h1>Panel 2</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsum accusamus explicabo vitae, provident, nemo cumque libero dignissimos dolor fuga aperiam maxime delectus vel dicta quasi nihil! Illo, odit ratione.</p>
+        </section>
+      
+        <section class="panel-3">
+          <h1>Panel 3</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quod consequuntur fuga possimus sapiente debitis repellat officia fugiat? Voluptatum excepturi, reiciendis possimus eligendi blanditiis nesciunt nulla odit similique ea dolorem.</p>
+        </section> 
+      </main>
 
-    <!-- Find a gif. Add to index.html -->
-    <img src="assets/giphy.gif" alt="Inspirational gif">
 
 </body>
 </html>
