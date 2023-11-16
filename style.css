@@ -18,13 +18,13 @@ section {
     flex-direction: column;
 }
 .panel-1 {
-    background-image: var(--gradient-21);  
+    background-image: var(--gradient-19);  
 }
 .panel-2 {
-    background-image: var(--gradient-12);
+    background-image: var(--gradient-5);
 }
 .panel-3 {
-    background-image: var(--gradient-1);
+    background-image: var(--gradient-20);
 }
 
 h1 {
